@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link href="estilosticktack.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div id="contenedor">
+    <div id="cabecera">
+      <div id="logo"></div>
+      <div id="titulo">TickTackZubiriTickets</div>
+      <div id="login">
+        <form method="post" action="#">
+          <fieldset>
+            <legend>Entrar</legend>
+          <table border="0">
+            <tr>
+              <td><label>usuario</label></td>
+              <td><input type="text" name="user" placeholder="Introduzca su usuario"/></td>
+            </tr>
+            <tr>
+              <td><label>usuario</label></td>
+              <td><input type="password" name="pass" placeholder="Introduzca su contraseña"/></td>
+            </tr>
+            <tr>
+              <td><input type="submit" name="submit" value="Aceptar"/></td>
+            </tr>
+          </table>
+          </fieldset>
+        </form>
+      </div>
+      
+    </div><!--cabecera -->
+    
+    <div id="cuerpo">
+      <div id="bloqueizquierda">
+        <div class="caja">
+          <h2>Menú</h2>
+          <ul>
+            <li><a href="index.html">Últimas Noticias</a></li>
+            <li><a href="gigs.html">Próximos Conciertos</a></li>
+            <li><a href="video.html">Galeria de vídeos</a></li>
+            <li><a href="audio.html">Galeria de audio</a></li>
+            <li><a href="gallery.html">Fotos de conciertos</a></li>
+            <li><a href="buy.html">Comprar Entradas</a></li>
+          </ul>
+        </div>
+        
+        <div class="caja">
+          <h2>Subscribase a nuestro boletín</h2>
+          <form method="post" action="#">
+            <table border=0>
+              <tr><td><label>Introduzca su correo</label></td></tr>
+              <tr><td><input type="email" name="email" placeholder="xxxxx@yyyyy.zzz"/></td></tr>
+              <tr><td><input type="submit" name="newsletter" value="Aceptar"/></td></tr>
+            </table>
+          </form>
+        </div>
+      
+      
+        <div class="caja">
+          <h2>Artistas destacados</h2>
+          <input id="artistaselec" list="artists" placeholder="Selecciona un artista">
+          <datalist id="artistas">
+            <option value="Pantera"/>
+            <option value="Machine Head"/>
+            <option value="Metallica"/>
+            <option value="Black Label Society"/>
+            <option value="Slipknot"/>
+            <option value="Black Sabbath"/>
+          </datalist>
+        </div>  
+      
+      </div><!--Bloque izquierda-->
+      
+      <div id="bloquecentro">
+        <h1>Fotos de Conciertos</h1>
+        <div id="fotos">
+            
+        </div>
+      </div><!--bloque centro-->
+      <div id="bloquederecha">
+        <div class="caja">
+          <h2>Próximos Conciertos</h2>
+          <ul>
+            <li><a href="#">Machine Head - 16 de noviembre</a></li>
+            <li><a href="#">Rolling Stones - 3 de diciembre</a></li>
+            <li><a href="#">U2 - 25 de enero</a></li>
+            <li><a href="#">Iron Maiden - 6 de febrero</a></li>
+            <li><a href="#">AC/DC - 21 de abril</a></li>
+            <li><a href="#">Airbourne - 18 de mayo</a></li>
+            <li><a href="#">Marilyn Manson - 29 de agosto</a></li>
+          </ul>
+        </div>
+        
+        <div class="caja">
+          <h2>Artista de la semana</h2>
+          <div id="artistasemana"></div>
+          <p id="artistasemtexto">Presentación de Zakk Wylde</p>
+        </div>
+      </div><!--bloquederecha-->
+    </div><!--fin cuerpo-->
+    <div id="pie">Escribe_aquí_tu_nombre - &copy;2014</div>
+  </div><!--contenedor-->
+</body>
+</html>
