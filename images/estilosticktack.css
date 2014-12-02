@@ -29,7 +29,7 @@
 
 #titulo {
 	float:left;
-	font-family:musicfont;
+	font-family:Forte;
 	font-size:60px;
 	font-weight:300;
 	margin-top:40px;
@@ -46,7 +46,7 @@
 	background-color:#a9a9a9;
 }
 @font-face{
-	font-family: arial musicfont;
+	font-family: Forte;
 	src: url("../fonts/giftwrap.ttf");
 }
 
@@ -102,7 +102,7 @@
 h1{
 	font-size:40px;
 	margin-left:5px;
-	font-family:musicfont;
+	font-family:Forte;
 	margin-top:5px;
 	margin-left:10px;
 }
@@ -110,7 +110,7 @@ h1{
 h2{
 	font-size:20px;
 	margin-left:5px;
-	font-family:musicfont;
+	font-family:Forte;
 }
 
 #artistaselec{
@@ -140,22 +140,22 @@ a:hover{
 	text-align:center;
 }
 
-#fotos {
-	-webkit-column-count:3;
-	-webkit-column-width:175px;
-	-moz-column-count:3;
-	-moz-column-width:175px;
-	margin-left:12px;
-	padding-left:12px;
+#fotos{
+		-webkit-column-count:3;
+		-webkit-column-width:160px;
+		-moz-column-count:3;
+		-moz-column-width:160px
+		margin-left:12px;
+		padding-left:12px;
+	}
 
-}
-#pic1, #pic2, #pic3, #pic4, #pic5, #pic6, #pic7, #pic8, #pic9 {
-	width:150px;
-	height:150px;
-	background-size:150px 150px;
-	margin-bottom:12px;
-	
-}
+#pic1, #pic2, #pic3, #pic4, #pic5, #pic6, #pic7, #pic8, #pic9{
+		width:140px;
+		height:140px;
+		background-size: 140px 140px;
+		margin-bottom: 12px;
+	}
+
 
 #pic1{
 	background-image:url("dave.jpg");
